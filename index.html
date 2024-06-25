@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <title>Task</title>
+</head>
+<body class="bg-black text-white " >
+    <header >
+        <nav class=" p-2 flex justify-between  lg:flex   lg:justify-between lg:items-center lg:m-8 lg:p-6">
+           <div>
+               <p>Magic</p>
+               <P>Media</P>
+           </div>
+           <div class=" flex space-x-3 items-center">
+                <div class=" absolute right-0  top-[-100%] mx-4   lg:static" id="navlink">
+                    <ul class=" space-y-3  lg:space-y-0  lg:flex lg:gap-[4vw] lg:mx-2 ">
+                    <li class="cursor-pointer hover:scale-105 hover:text-rose-400">About Us <span class="pt-[0.09rem] text-rose-500 hover:scale-0"><ion-icon name="chevron-down-outline"></ion-icon></span></li>
+                    <li class="cursor-pointer hover:scale-105 hover:text-rose-400">Technologies</li>
+                    <li class="cursor-pointer hover:scale-105 hover:text-rose-400">Services</li>
+                    <li class="cursor-pointer hover:scale-105 hover:text-rose-400">Our Work</li>
+                    <li class="cursor-pointer hover:scale-105 hover:text-rose-400">Resources</li>
+                    <li class="cursor-pointer hover:scale-105 hover:text-rose-400">Courses</li>
+                    </ul>
+                </div>
+               <div class="flex items-center ">
+                   <button class="mx-2 bg-pink-800 p-2 rounded-lg hover:bg-pink-600 ">Contact Us</button>
+                   <div class="lg:hidden text-3xl" ><ion-icon name="menu" onclick="topToggleMenu(this)" ></ion-icon></div>
+               </div>
+           </div>
+        </nav>
+    </header>
+
+    <div class=" my-3 mx-4 lg:mx-10 lg:my-6 lg:p-3 w-[70%]  ">
+           <div class="text flex flex-col  ">
+                <h1 class="text-2xl my-4"><span class="text-rose-800 ">01</span>/3</h1>
+                <h2 class="text-2xl my-2"><span class="text-rose-800 ">Let's Create </span>Magic</h2>
+                <p class="  md:w-[50%] mb-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque voluptatum libero maxime facere exercitationem aliquam soluta deserunt nobis error non.</p>
+                 <div class="flex mt-10 md:mt-16 mb-8 hover:underline hover:text-rose-500 cursor-pointer">
+                    <div >SEE MORE </div>
+                    <div class="text-rose-500 text-2xl ml-"><ion-icon name="chevron-forward-outline"></ion-icon></div>
+                </div>
+                 <div class="flex space-x-4 md:space-x-4 items-start">
+                    <div class="cursor-pointer hover:scale-110 text-3xl"><ion-icon name="arrow-undo-circle-outline"></ion-icon></div>
+                    <div class="cursor-pointer hover:scale-110 text-3xl"><ion-icon name="arrow-redo-circle-outline"></ion-icon></div>
+                    
+                 </div>
+            </div>
+    </div>
+      
+     
+    <div class="h-[62rem] md:h-[40rem] lg:pt-24 w-full bg-[url('/10.jpg')] bg-cover lg:flex lg:justify-center lg:items-center  lg:space-x-4 md:my-5   " >
+        <div class=" text flex flex-col justify-center space-y-2 items-center  ">
+                <div class="flex justify-center items-center flex-col w-fit">
+                    <h1 class="text-xl md:text-2xl my-2"><span class="text-rose-600 font-bold">Where The Magic </span> Happens</h1>
+                    <p class="w-2/3 my-1 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Quaerat laudantium, ex recusandae vel vero tempore provident, cum magni omnis neque sit iste ipsa earum, 
+                    quod perferendis qui! Quia, iusto reiciendis?</p> 
+                </div>
+
+                <div class="logos  flex flex-col space-y-2 md:space-y-0 md:flex-row justify-around gap-[3vw] md:gap-[5vw] mx-4">
+                    <div class=" flex flex-col items-center">
+                        <img src="0.png" class="w-14">
+                        <p>Global</p>
+                        <p> Workforce</p>
+                    </div>
+                
+                    <div class="flex flex-col items-center ">
+                        <img src="0.png" class="w-14">
+                        <p>Locations</p>
+                        <p>World Wide</p>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <img src="0.png" class="w-14">
+                        <p>Areas Of</p>
+                        <p>Experties</p>
+                    </div>
+                </div>
+
+                <div class="promos  grid grid-rows-2   md:space-y-0 md:flex-row   gap-2 ">
+                            <div class="grid grid-cols-2   gap-2 md:grid-cols-4 md:gap-3  lg:grid-cols-5 lg:gap-1 lg:mt-20">
+                                <div class=" cursor-pointer  md:m-3 flex space-x-2">
+                                    <img src="c.png" class=" w-6 h-8 md:w-10">
+                                    <div class="flex flex-col">
+                                        <p class="underline font-bold">STARLOOP</p>
+                                        <p class="text-sm font-thin">Media Company</p>
+                                    </div>
+                                </div>
+                                <div class=" cursor-pointer  md:m-3 flex space-x-2">
+                                    <img src="c.png" class=" w-6 h-8 md:w-10">
+                                    <div class="flex flex-col">
+                                    <p class="underline font-bold">STARLOOP</p>
+                                    <p class="font-thin">Media Company</p>
+                                    </div>
+                                </div>
+                                <div class="cursor-pointer  md:m-3 flex space-x-2">
+                                    <img src="c.png" class=" w-6 h-8 md:w-10">
+                                    <div class="flex flex-col">
+                                        <p class="underline font-bold">STARLOOP</p>
+                                        <p class="font-thin">Media Company</p>
+                                    </div>
+                                </div>
+                                <div class="cursor-pointer md:m-3 flex space-x-2">
+                                    <img src="c.png" class=" w-6 h-8 md:w-10">
+                                    <div class="flex flex-col">
+                                        <p class="underline font-bold">STARLOOP</p>
+                                        <p class="font-thin">Media Company</p>
+                                    </div>
+                                </div>
+                                <div class="cursor-pointer  md:m-3 flex space-x-2">
+                                    <img src="c.png" class=" w-6 h-8 md:w-10">
+                                    <div class="flex flex-col">
+                                    <p class="underline font-bold">STARLOOP</p>
+                                    <p class="font-thin">Media Company</p>
+                                    </div>
+                                </div>
+                                <div class=" cursor-pointer md:m-3 flex space-x-2">
+                                    <img src="c.png" class=" w-6 h-8 md:w-10">
+                                    <div class="flex flex-col">
+                                        <p class="underline font-bold">STARLOOP</p>
+                                        <p class="font-thin">Media Company</p>
+                                    </div>
+                                </div>
+                                <div class=" cursor-pointer md:m-3 flex space-x-2">
+                                    <img src="c.png" class=" w-6 h-8 md:w-10">
+                                    <div class="flex flex-col">
+                                    <p class="underline font-bold">STARLOOP</p>
+                                    <p class="font-thin">Media Company</p>
+                                    </div>
+                                </div>
+                                <div class="cursor-pointer md:m-3 flex space-x-2">
+                                    <img src="c.png" class=" w-6 h-8 md:w-10">
+                                    <div class="flex flex-col">
+                                    <p class="underline font-bold">STARLOOP</p>
+                                    <p class="font-thin">Media Company</p>
+                                    </div>
+                                </div>
+                                <div class="cursor-pointer  md:m-3 flex space-x-2">
+                                    <img src="c.png" class=" w-6 h-8 md:w-10">
+                                    <div class="flex flex-col">
+                                        <p class="underline font-bold">STARLOOP</p>
+                                        <p class="font-thin">Media Company</p>
+                                    </div>
+                                </div>
+                                <div class=" cursor-pointer md:m-3 flex space-x-2">
+                                    <img src="c.png" class=" w-6 h-8 md:w-10">
+                                    <div class="flex flex-col">
+                                        <p class="underline font-bold">STARLOOP</p>
+                                        <p class="font-thin">Media Company</p>
+                                    </div>
+                                </div>
+                    
+                            </div>
+                </div>
+    
+        </div>
+    </div>
+
+
+    <div class="content  h-[768px] w-full bg-white flex flex-col-reverse md:flex-row">
+            <div class="bg-blue-950 w-full   md:w-[50%] h-[100%] box-border text-white border-t-white   md:border-l-transparent md:border-t-0 md:border-l-0 md:border-r-[180px] md:border-r-white md:border-b-[769px] md:border-b-transparent" >
+                <div  class="scrollarea mb-6 h-[300px] md:w-[400px] md:h-[518px]  overflow-auto md:mt-[8rem]  ">
+                    <div class= " ml-[30px]  md:ml-0 md:mx-[4px] my-[4px] p-[4px] " >
+                        <div class="flex flex-col md:ml-10">
+                            <div class="flex flex-col items-center md:items-start my-4 ">
+                                <h1 class=" font-bold hover:text-rose-400 cursor-pointer hover:underline" id="dev" onclick="showAll()">Development</h1>
+                                <div class=" md:w-[60%]">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, sapiente.
+                                </div>
+                            </div>
+                            <div class="flex flex-col items-center md:items-start my-4">
+                                <h1 class=" font-bold hover:text-rose-400 cursor-pointer hover:underline">Art</h1>
+                                <div class="md:w-[60%]">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, sapiente.
+                                </div>
+                            </div>
+                            <div class="flex flex-col items-center md:items-start my-4">
+                                <h1 class=" font-bold hover:text-rose-400 cursor-pointer hover:underline" onclick="showTest()" id="test">Testing</h1>
+                                <div class="md:w-[60%]">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, sapiente.
+                                </div>
+                            </div>
+                            <div class="flex flex-col items-center md:items-start my-4">
+                                <h1 class=" font-bold hover:text-rose-400 cursor-pointer hover:underline">Development</h1>
+                                <div class="md:w-[60%]">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, sapiente.
+                                </div>
+                            </div>
+    
+                        </div>
+                     
+                    </div>
+                </div>
+            </div> 
+            <div class="bg-white text-gray-700  h-[100%] md:w-[50%] box-border ">
+                <div class="flex flex-col items-center justify-center md:mt-[5.8rem] " id="service">
+                    <h1 class="text-lg md:text-2xl my-2"><span class="text-rose-600 font-bold">Our </span> Services</h1>
+                    <div class=" grid grid-cols-2  gap-2 md:gap-12 my-4 " id="grid">
+                        <div class="border border-gray-100 px-4 py-4 shadow-xl cursor-pointer hover:scale-105">
+                            <h1>Full Cycle Development</h1>
+                        </div>
+                        <div class="border border-gray-100 px-4 py-4 shadow-xl cursor-pointer hover:scale-105">
+                            <h1>Full Cycle Development</h1>
+                        </div>
+                        <div class="border border-gray-100 px-4 py-4 shadow-xl cursor-pointer hover:scale-105">
+                            <h1>Full Cycle Development</h1>
+                        </div>
+                        <div class="border border-gray-100 px-4 py-4 shadow-xl cursor-pointer hover:scale-105">
+                            <h1>Full Cycle Development</h1>
+                        </div>
+                        <div class="border border-gray-100 px-4 py-4 shadow-xl cursor-pointer hover:scale-105">
+                            <h1>Full Cycle Development</h1>
+                        </div>
+                        <div class="border border-gray-100 px-4 py-4 shadow-xl cursor-pointer hover:scale-105">
+                            <h1>Full Cycle Development</h1>
+                        </div>
+                        <div class="border border-gray-100 px-4 py-4 shadow-xl cursor-pointer hover:scale-105">
+                            <h1>Full Cycle Development</h1>
+                        </div>
+                        <div class="border border-gray-100 px-4 py-4 shadow-xl cursor-pointer hover:scale-105">
+                            <h1>Full Cycle Development</h1>
+                        </div>
+                        <div class="border border-gray-100 px-4 py-4 shadow-xl cursor-pointer hover:scale-105">
+                            <h1>Full Cycle Development</h1>
+                        </div>
+                        <div class="border border-gray-100 px-4 py-4 shadow-xl cursor-pointer hover:scale-105">
+                            <h1>Full Cycle Development</h1>
+                        </div>
+
+                    </div>
+                    <div >
+                    <div class="hidden" id="testGrid" >
+                        <div class="testing grid grid-cols-1 gap-12 my-4 " >
+                            <div class="border border-gray-100 px-4 py-4 shadow-xl cursor-pointer hover:scale-105">
+                                <h1>Full Cycle Development</h1>
+                            </div>
+                            <div class="border border-gray-100 px-4 py-4 shadow-xl cursor-pointer hover:scale-105">
+                                <h1>Full Cycle Development</h1>
+                            </div>
+                            <div class="border border-gray-100 px-4 py-4 shadow-xl cursor-pointer hover:scale-105">
+                                <h1>Full Cycle Development</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            </div> 
+    </div>
+     
+    
+    <div class="h-[500px] sm:h-[600px] md:h-[768px]  w-full bg-[url('/game.webp')] bg-cover">
+        <div class="flex flex-col items-center justify-center mx-6 gap-y-4 ">
+            <div class="flex gap-x-5 items-center  overflow-x-scroll   cursor-pointer mt-[30%] md:mt-[40%] lg:mt-[25%] xl:mt-[15%] ">
+                <img src="logo1.avif" alt="" class="w-[25%] h-[20%]" >
+                <img src="2.png" alt="" class="w-[25%] h-[40%] " >
+                <img src="3.png" alt="" class="w-[25%]">
+                <img src="4.png" alt="" class="w-[25%]">
+                <img src="5.png" alt="" class="w-[25%]">
+            </div>
+            <div class="text-white text-xl  ">
+                An immersive experience that we our dedicated team built for Bankos.
+            </div>
+            <div>
+                <button class="mx-2 bg-pink-700 p-2 rounded-lg hover:bg-pink-800">Learn More</button>
+            </div>
+            <div class="flex items-center justify-center gap-3">
+                <div class="text-white text-xl cursor-pointer hover:underline"> See Our Clients </div>
+                <div class="font-bold text-rose-900 mt-[8px]">
+                    <ion-icon name="chevron-forward-outline"></ion-icon>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="content  h-[600px] md:h-[768px] w-full bg-white flex flex-col-reverse md:flex-row">
+        <div class="bg-rose-600 w-full   md:w-[50%] h-[100%] box-border text-white border-t-white   md:border-l-transparent md:border-t-0 md:border-l-0 md:border-r-[180px] md:border-r-white md:border-b-[769px] md:border-b-transparent" >
+           <div class="flex flex-col  md:mt-[50%] p-5 gap-y-4 ">
+            <p class="text-lg">
+                “ I was very satisfied with the collaboration. The communication and pace of getting things done were really good and the artist was able to adopt the graphical style of the game almost instantly. ” 
+            </p>
+            <img src="6.png" alt="" class="w-[30%]">
+           </div>
+        </div> 
+        <div class="bg-white text-gray-700  h-[100%] md:w-[50%] box-border ">
+            <div class="flex flex-col items-center justify-center md:mt-[5.8rem] md:py-10  ">
+                <h1 class="text-lg md:text-2xl my-2"><span class="text-rose-600 font-bold">WE BUILD </span> RELATIONSHIPS</h1>
+                <div class=" grid   mx-4 grid-cols-5 md:mx-6  gap-2 md:gap-7 md:ml-[3rem] " >
+                   <img src="7.png" alt="" class="w-[80%]">
+                   <img src="7.png" alt="" class="w-[70%]">
+                   <img src="7.png" alt="" class="w-[70%]">
+                   <img src="7.png" alt="" class="w-[70%]">
+                   <img src="7.png" alt="" class="w-[70%]">
+                   <img src="7.png" alt="" class="w-[70%]">
+                   <img src="7.png" alt="" class="w-[70%]">
+                   <img src="7.png" alt="" class="w-[70%]">
+                   <img src="7.png" alt="" class="w-[70%]">
+                   <img src="7.png" alt="" class="w-[70%]">
+                   <img src="7.png" alt="" class="w-[70%]">
+                   <img src="7.png" alt="" class="w-[70%]">
+                   <img src="7.png" alt="" class="w-[70%]">
+                   <img src="7.png" alt="" class="w-[70%]">
+                   <img src="7.png" alt="" class="w-[70%]">
+                   <img src="7.png" alt="" class="w-[70%]">
+                   <img src="7.png" alt="" class="w-[70%]">
+                   <img src="7.png" alt="" class="w-[70%]">
+                   <img src="7.png" alt="" class="w-[70%]">
+                   <img src="7.png" alt="" class="w-[70%]">
+
+                </div>
+                <div >
+               
+            </div>
+        </div>
+
+        </div> 
+    </div>
+
+    <div class=" h-[768px]">
+        <div class="h-[588px] w-full bg-[url('/back.avif')] bg-cover ">
+            <div class="absolute h-[400px] w-full">
+
+                <div class="flex  items-center justify-evenly md:justify-end md:gap-x-4 md:mx-4 mt-[100%] md:mt-[40%] ">
+                    <div class=" bg-pink-800 px-4 py-2 order-2 md:order-1 rounded-lg hover:bg-pink-600 text-white">See Our Portfolio 
+                    </div>   
+                    <div class="cursor-pointer hover:scale-110 text-3xl order-1 md:order-2"><ion-icon name="arrow-undo-circle-outline"></ion-icon></div>
+                    <div class="cursor-pointer hover:scale-110 text-3xl order-3"><ion-icon name="arrow-redo-circle-outline"></ion-icon></div>
+                </div>
+            </div> 
+            
+        </div>
+        <div class=" flex h-[160px]  overflow-x-scroll   cursor-pointer">
+            <img src="a.jpeg" class="w-[160px] h-[160px] ">
+            <img src="b.jpeg" class="w-[160px] h-[160px] ">
+            <img src="c.jpeg" class="w-[160px] h-[160px]">
+            <img src="d.jpeg" class="w-[160px] h-[160px] ">
+            <img src="e.jpeg" class="w-[160px] h-[160px] ">
+            <img src="f.jpeg" class="w-[160px] h-[160px] ">
+            <img src="g.jpeg" class="w-[160px] h-[160px] ">
+            <img src="h.jpeg" class="w-[160px] h-[160px] ">
+            <img src="i.jpeg" class="w-[160px] h-[160px] ">
+            <img src="c.jpeg" class="w-[160px] h-[160px] ">
+            <img src="d.jpeg" class="w-[160px] h-[160px] ">
+            <img src="e.jpeg" class="w-[160px] h-[160px] ">
+            <img src="f.jpeg" class="w-[160px] h-[160px] ">
+       
+        </div>
+    </div>
+    
+    <div class="h-[768px] w-full bg-white">
+
+        <div class="content  h-[644px] overflow-hidden w-full bg-white flex flex-col md:flex-row">
+            <div class=" w-full   bg-[url('/b.jpg')] bg-no-repeat md:w-[50%] h-[100%] box-border text-white border-t-white   md:border-l-transparent md:border-t-0 md:border-l-0 md:border-r-[180px] md:border-r-white md:border-b-[769px] lg:border-b-[676px] md:border-b-transparent" > 
+            
+            </div> 
+            <div class="bg-white text-gray-700  h-[100%] md:w-[50%] box-border ">
+                <div class="flex  flex-col justify-center items-start mt-[10%] mx-3 md:mt-[20%] gap-3">
+                    <h1 class="text-xl lg:text-3xl text-rose-800">Let's Create <span  class="text-black">Magic</span></h1>
+                    <p class="text-lg lg:text-2xl">At Magic Media, our strength lies in our size and diversity, allowing us to offer gaming services including full-cycle game development, co-development, video production, trailers, and comprehensive artistic services. Whether you’re in need of innovative technology or a team driven by creativity, we are prepared to put our skills and knowledge into your project.</p>
+                    <button class="mx-2 bg-pink-800 px-6 py-2 rounded-lg hover:bg-pink-600 text-white mb-3 md:mb-0">Contact Us</button>
+                </div>
+            </div>
+        </div>
+        <div class="h-[124px] w-full bg-black">
+            <div class="flex gap-4  flex-col lg:flex-row items-center justify-center lg:justify-around pt-10">
+                <div class="flex flex-col items-center lg:flex-row gap-2 order-1">
+                    <span>Cookies</span>
+                    <span>Terms & Conditions</span>
+                    <span>Privacy policy</span>
+                    <span>Contact Us</span>
+                </div>
+                <div class="mb-5 lg:mb-0 order-3 lg:order-2">
+                    @2023 Magic Media Group
+                </div>
+                <div class="flex gap-2 order-2 lg:order-3">
+                    <span>icon</span>
+                    <span>icon</span>
+                    <span>icon</span>
+                    <span>icon</span>
+
+                </div>
+            </div>
+        </div>
+    </div >
+
+
+     <script>
+        const navlink=document.getElementById("navlink")
+        function topToggleMenu(e){
+            
+            e.name=e.name==="menu" ?"close": "menu"
+            navlink.classList.toggle('top-[10%]')
+            navlink.classList.toggle('bg-gray-300')
+            navlink.classList.toggle("text-black")
+            navlink.classList.toggle('rounded-lg')
+            navlink.classList.toggle("p-5")
+        }
+       
+
+        const grid=document.getElementById("grid")
+        const dev=document.getElementById("dev")
+        const testGrid=document.getElementById("testGrid")
+        function showAll(){
+            grid.classList.remove('hidden')
+            testGrid.classList.add("hidden")
+        }
+
+        function showTest(){
+            grid.classList.add("hidden")
+            testGrid.classList.remove("hidden")
+
+        }
+     </script>
+     
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
